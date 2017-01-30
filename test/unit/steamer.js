@@ -1,18 +1,13 @@
-import steamer from '../../src/steamer';
+import Steamer from '../../src/steamer';
 
-describe('steamer', () => {
-  describe('Greet function', () => {
-    beforeEach(() => {
-      spy(steamer, 'greet');
-      steamer.greet();
+describe('Steamer', () => {
+  describe('Construction', () => {
+    it('should throw if no file name is given', () => {
+      expect(() => new Steamer(null, {})).to.throw(Error);
     });
 
-    it('should have been run once', () => {
-      expect(steamer.greet).to.have.been.calledOnce;
-    });
-
-    it('should have always returned hello', () => {
-      expect(steamer.greet).to.have.always.returned('hello');
+    it('should throw if no callbacks are given', () => {
+      expect(() => new Steamer('dummy', null)).to.throw(Error);
     });
   });
 });
