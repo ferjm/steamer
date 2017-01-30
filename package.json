@@ -52,6 +52,6 @@
   },
   "babelBoilerplateOptions": {
     "entryFileName": "steamer.js",
-    "mainVarName": "steamer"
+    "mainVarName": "Steamer"
   }
 }
