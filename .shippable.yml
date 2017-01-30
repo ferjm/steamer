@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "stable"
+sudo: false
+script: "gulp coverage"
+build:
+  pre-ci:
+    - npm install -g gulp
