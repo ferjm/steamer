@@ -2,4 +2,4 @@
 
 Javascript library to ease resumable file uploads from browsers
 
-[![Travis build status](http://img.shields.io/travis/ferjm/steamer.svg?style=flat)](https://travis-ci.org/ferjm/steamer)
+[![Build Status](https://api.shippable.com/projects/588b1fa6f2ff731000b40b1a/badge?branch=master&label=build)](https://app.shippable.com/projects/588b1fa6f2ff731000b40b1a)
